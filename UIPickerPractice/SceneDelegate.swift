@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  UIPickerPractice
 //
-//  Created by 黃肇祺 on 2021/6/1.
+//  Created by Stephen on 2021/6/1.
 //
 
 import UIKit

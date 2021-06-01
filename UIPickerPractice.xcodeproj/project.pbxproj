@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		647D61FD2665E17D00C3744C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D61FC2665E17D00C3744C /* AppDelegate.swift */; };
 		647D61FF2665E17D00C3744C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D61FE2665E17D00C3744C /* SceneDelegate.swift */; };
-		647D62012665E17D00C3744C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D62002665E17D00C3744C /* ViewController.swift */; };
 		647D62042665E17D00C3744C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647D62022665E17D00C3744C /* Main.storyboard */; };
 		647D62062665E17F00C3744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647D62052665E17F00C3744C /* Assets.xcassets */; };
 		647D62092665E17F00C3744C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647D62072665E17F00C3744C /* LaunchScreen.storyboard */; };
+		647D62112665F40700C3744C /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D62102665F40700C3744C /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		647D61F92665E17D00C3744C /* UIPickerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647D61FC2665E17D00C3744C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		647D61FE2665E17D00C3744C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		647D62002665E17D00C3744C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		647D62032665E17D00C3744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		647D62052665E17F00C3744C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647D62082665E17F00C3744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647D620A2665E17F00C3744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647D62102665F40700C3744C /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 			children = (
 				647D61FC2665E17D00C3744C /* AppDelegate.swift */,
 				647D61FE2665E17D00C3744C /* SceneDelegate.swift */,
-				647D62002665E17D00C3744C /* ViewController.swift */,
 				647D62022665E17D00C3744C /* Main.storyboard */,
 				647D62052665E17F00C3744C /* Assets.xcassets */,
+				647D62102665F40700C3744C /* PickerViewController.swift */,
 				647D62072665E17F00C3744C /* LaunchScreen.storyboard */,
 				647D620A2665E17F00C3744C /* Info.plist */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647D62012665E17D00C3744C /* ViewController.swift in Sources */,
+				647D62112665F40700C3744C /* PickerViewController.swift in Sources */,
 				647D61FD2665E17D00C3744C /* AppDelegate.swift in Sources */,
 				647D61FF2665E17D00C3744C /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stephen1.UIPickerPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stephen1.UIPickerPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
